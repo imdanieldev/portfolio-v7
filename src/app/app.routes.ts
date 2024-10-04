@@ -7,5 +7,5 @@ export const routes: Routes = [
     { path: '', component: HomeComponent, title: "Daniel Web Dev" },
     { path: 'about', component: AboutComponent , title: "Daniel Nasr - About Me" },
     { path: 'contact', component: ContactComponent , title: "Daniel Nasr - Contact Me"  },
-    { path: '**', component: PageNotFoundComponent }
+    { path: '**', component: PageNotFoundComponent , title: "Daniel Nasr - 404" }
 ];
